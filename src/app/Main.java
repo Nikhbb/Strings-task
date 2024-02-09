@@ -11,7 +11,7 @@ public class Main {
         runTask(getMenuNumber());
     }
 
-    public static int getMenuNumber(){
+    public static int getMenuNumber() {
         System.out.println("\nMenu:");
         System.out.println("0 - exit");
         System.out.println("1 - correct mistake");
@@ -25,8 +25,8 @@ public class Main {
         return userValue;
     }
 
-    public static void runTask(int taskNumber){
-        switch (taskNumber){
+    public static void runTask(int taskNumber) {
+        switch (taskNumber) {
             case 0:
                 System.out.println("Bye.");
                 break;
