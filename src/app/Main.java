@@ -32,12 +32,15 @@ public class Main {
                 break;
             case 1:
                 new Task1().run();
+                runTask(getMenuNumber());
                 break;
             case 2:
                 new Task2().run();
+                runTask(getMenuNumber());
                 break;
             case 3:
                 new Task3().run();
+                runTask(getMenuNumber());
                 break;
             default:
                 runTask(getMenuNumber());
