@@ -20,9 +20,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Input menu number: ");
-        int userValue = sc.nextInt();
 
-        return userValue;
+        return sc.nextInt();
     }
 
     public static void runTask(int taskNumber) {
